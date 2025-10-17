@@ -2,19 +2,19 @@ package com.codeit.springcore.chap03;
 
 public class WesternRestaurant implements Restaurant {
 
-    private Chef johnChef;
+    private Chef chef;
 
-    private Course westernCourse;
+    private Course course;
 
-    public WesternRestaurant(Chef johnChef, Course westernCourse) {
-        this.johnChef = johnChef;
-        this.westernCourse = westernCourse;
+    public WesternRestaurant(Chef chef, Course course) {
+        this.chef = chef;
+        this.course = course;
     }
 
     public void order() {
         System.out.println("안녕하세요 WesternRestaurant 입니다.");
-        johnChef.cook();
-        westernCourse.combineMenu();
+        chef.cook();
+        course.combineMenu();
     }
 
 }
