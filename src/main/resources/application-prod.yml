@@ -1,0 +1,6 @@
+# 서비스(배포)용 설정 파일
+
+server:
+  port: 8888
+
+message: 'this is prod profile'

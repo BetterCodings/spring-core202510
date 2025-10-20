@@ -1,0 +1,12 @@
+# properties ???
+# spring.application.name=spring-core
+# server.port=8080
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: spring-core
+
+server:
+  port: 8080

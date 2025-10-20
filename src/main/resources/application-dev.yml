@@ -1,0 +1,19 @@
+# 개발용 설정 파일
+
+server:
+  port: 9090
+
+message: 'this is dev profile'
+
+# 외부 라이브러리 같은 경우에는 작성법에 순서가 정해져 있는 경우가 많은데,
+# 내가 직접 세팅한 설정값도 얼마든지 추가할 수 있습니다.
+my-app:
+  name: Demo Application
+  version: 1.0.0
+  admin:
+    email: admin@example.com
+    phone: 010-1234-5678
+  features:
+    - user-management
+    - product-catalog
+    - payment
